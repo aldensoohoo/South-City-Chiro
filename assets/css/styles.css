@@ -7,6 +7,46 @@
 * License: Creative Commons Attribution 3.0 License
 */
 /* Theme default */
+.benTitle{
+  font-weight: 300;
+  border-bottom: 1px solid #40babd;
+  width: 30%;
+  margin: auto;
+  padding: 5px;
+  color: #40babd;
+}
+.benefitCont{
+  width: 100%;
+}
+.adjustment, .massage, .drugTesting{
+  width: 100%;
+  background-color: white;
+  border-radius: 7px;
+  margin-bottom: 25px;
+}
+.massImg, .drugImg{
+  width: 30%;
+  height: 175px;
+  display: inline-block;
+  border:1px solid blue;
+  margin-top: 13px;
+}
+.adjImg{
+  background-image: url('largeSpine.png');
+  background-size:100% 100%;
+  margin:auto;
+  width: 27%;
+  height: 253px;
+  display: inline-block;
+  margin-top: 13px;
+}
+.adjText, .massText, .drugText{
+  width: 65%;
+  height: 300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 13px;
+}
 #centerBtn{
   margin-top: 10%;
   margin-left: 26%;
