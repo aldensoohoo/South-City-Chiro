@@ -6,6 +6,13 @@
  * Twitter: @3rdwave_themes
 * License: Creative Commons Attribution 3.0 License */
 /* Theme default */
+.centerCenter{
+  margin-top: 163px;
+  font-family: Raleway;
+  text-align: center;
+  font-weight: 900;
+  font-size: 50px;
+}
 .bigBoy{
   width: 100%;
   margin-bottom: 25px;
@@ -388,8 +395,9 @@ a.btn-cta {
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 15px;
-  margin-top: 240px;
+  margin-top: 125px;
   font-weight: 300;
+  text-align: left;
 }
 .hero-carousel .carousel-inner .intro {
   font-size: 18px;
