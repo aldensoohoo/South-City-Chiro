@@ -4,67 +4,103 @@
  * Author: Xiaoying Riley
  * Website: http://themes.3rdwavemedia.com/
  * Twitter: @3rdwave_themes
-* License: Creative Commons Attribution 3.0 License
-*/
+* License: Creative Commons Attribution 3.0 License */
 /* Theme default */
+.bigBoy{
+  width: 100%;
+  margin-bottom: 25px;
+}
+.benTextCont{
+  background-color:#f8a13f;
+  width: 100%;
+  padding: 30px;
+  margin-bottom: 60px;
+}
+.benTextCont p{
+  color:white;
+  font-weight: 300;
+  font-family: Raleway;
+}
+.benTextCont h2{
+  color:white;
+  font-weight: 300;
+  font-size: 3.4em;
+  font-family: Raleway;
+}
+.carouselCont{
+  margin: auto;
+  background-color: white;
+  margin-bottom: 65px;
+}
+.mySlides{
+  display: none;
+}
 .majorCont{
   width: 100%;
   display: inline-block;
 }
 .benTitle{
   font-weight: 300;
-  border-bottom: 1px solid #40babd;
-  width: 30%;
   margin: auto;
   padding: 5px;
   color: #40babd;
+  text-align: center;
+  font-family: Raleway;
 }
 .benefitCont{
-  width: 80%;
+  width: 84%;
   margin: auto;
 }
-.adjustment, .massage, .drugTesting{
-  width: 100%;
+.imgSlide{
+  width: 82%;
   background-color: white;
   border-radius: 7px;
   margin-bottom: 25px;
+  margin:auto;
 }
 .massImg{
   background-image: url('onBed.png');
   background-size:100% 100%;
   margin:auto;
-  width: 140px;
-  height: 140px;
+  width: 130px;
+  height: 130px;
   display: inline-block;
   margin-top: 35px;
+  margin-left: 7px;
 }
 .adjImg{
   background-image: url('tools.png');
   background-size:100% 100%;
   margin:auto;
-  width: 140px;
-  height: 140px;
+  width: 130px;
+  height: 130px;
   display: inline-block;
   margin-top: 35px;
+  margin-left: 7px;
 }
 .drugImg{
   background-image: url('drugs.png');
   background-size:100% 100%;
   margin:auto;
-  width: 140px;
-  height: 140px;
+  width: 130px;
+  height: 130px;
   display: inline-block;
   margin-top: 35px;
+  margin-left: 7px;
 }
 .adjText, .massText, .drugText{
   width: 65%;
   display: inline-block;
   vertical-align: top;
   margin-top: 35px;
+  padding: 20px;
+  text-align: center
 }
 #centerBtn{
   margin-top: 10%;
-  margin-left: 26%;
+  margin-left: 27%;
+  background-color: #27d866;
+  border: none;
 }
 .yelp-review{
   max-width: 265px;
@@ -347,12 +383,13 @@ a.btn-cta {
   background-size: cover;
 }
 .hero-carousel .carousel-inner .heading {
-  font-size: 30px;
+  font-size: 42px;
   line-height: 1.4;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 15px;
   margin-top: 240px;
+  font-weight: 300;
 }
 .hero-carousel .carousel-inner .intro {
   font-size: 18px;
@@ -443,7 +480,7 @@ a.btn-cta {
   position: relative;
   padding: 15px;
 }
-.testimonials-inner .quote:before {
+.testimonials-inner{
   position: absolute;
   left: -10px;
   top: 30px;
@@ -489,7 +526,7 @@ a.btn-cta {
   margin-left: 0;
   margin-right: 105px;
 }
-.testimonials-section .item.item-reversed .quote:before {
+.testimonials-section .item.item-reversed {
   left: inherit;
   right: -10px;
   content: "";
@@ -528,7 +565,7 @@ a.btn-cta {
   position: relative;
   padding: 30px;
 }
-.testimonials-section .item .quote:before {
+.testimonials-section .item {
   position: absolute;
   left: -10px;
   top: 30px;
@@ -552,6 +589,8 @@ a.btn-cta {
 }
 .container, .text-center{
   padding:0px;
+  font-weight: 300;
+  font-family: Raleway;
 }
 .features-section {
   padding-top: 90px;
@@ -679,9 +718,10 @@ a.btn-cta {
 }
 /* ======= Team Section ======= */
 .team-section {
-  padding-top: 90px;
+  padding-top: 80px;
   padding-bottom: 90px;
   background: #f5f5f5;
+  margin-top: 35px;
 }
 .team-section .section-title {
   margin: 0;
@@ -780,7 +820,25 @@ a.btn-cta {
   background-color: #333;
 }
 /* Extra small devices (phones, less than 768px) */
+@media (min-width: 750px) and (max-width: 1000px){  
+    .header .logo {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 27px;
+    }
+}
+
 @media (max-width: 767px) {
+  .mapCont{
+    margin-left: 10%;
+  }
+  .massImg, .adjImg, .drugImg{
+    margin-left: 23%;
+  }
+  .adjText, .massText, .drugText{
+  text-align: center;
+  width: 100%;
+  }
   .info{
   list-style-type: none;
   font-size: 14px;
@@ -911,6 +969,9 @@ a.btn-cta {
   .yelp-review{
   display: none;
   }
+  .bigBoy{
+  width: 100%;
+  }
 
 }
 /* Small devices (tablets, 768px and up) */
@@ -937,6 +998,9 @@ a.btn-cta {
   .mapiframe{
     width:500px;
     height:350px;
+  }
+  .bigBoy{
+  width: 100%;
   }
 }
 /* Medium devices (desktops, 992px and up) */
