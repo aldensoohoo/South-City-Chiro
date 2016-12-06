@@ -972,6 +972,10 @@ a.btn-cta {
   .bigBoy{
   width: 100%;
   }
+  .rightBtn, .leftBtn{
+    text-align: center;
+    margin:auto;
+  }
 
 }
 /* Small devices (tablets, 768px and up) */
