@@ -982,11 +982,10 @@ a.btn-cta {
   }
   .rightBtn{
     float: right;
-    display: inline-block;
     text-align: center;
     color: #fff;
     background-color: #000;
-    position: absolute;
+    position: relative;
     overflow: hidden;
     z-index: 1;
     padding: 0;
@@ -994,14 +993,14 @@ a.btn-cta {
     cursor: pointer;
     font-size: 30px;
     top: 50%;
+    margin-top: -50px;
   }
   .leftBtn{
     float:left;
-    display: inline-block;
     text-align: center;
     color: #fff;
     background-color: #000;
-    position: absolute;
+    position: relative;
     overflow: hidden;
     z-index: 1;
     padding: 0;
@@ -1009,6 +1008,7 @@ a.btn-cta {
     cursor: pointer;
     font-size: 30px;
     top: 50%;
+    margin-top: -50px;
   }
 
 }
