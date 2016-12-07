@@ -973,16 +973,22 @@ a.btn-cta {
     height:250px;
   }
 }
-@media (min-width: 320px) and (max-width: 410px){
+@media (min-width: 320px) and (max-width: 425px){
   .yelp-review{
   display: none;
   }
   .bigBoy{
   width: 100%;
   }
-  .rightBtn, .leftBtn{
-    text-align: center;
-    margin:auto;
+  .rightBtn{
+    float: right;
+    font-size: 20px;
+    padding: 5px;
+  }
+  .leftBtn{
+    float:left;
+    font-size: 20px;
+    padding: 5px;
   }
 
 }
