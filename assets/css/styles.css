@@ -993,6 +993,7 @@ a.btn-cta {
     border-radius: 50%;
     cursor: pointer;
     font-size: 24px;
+    top: 50%;
   }
   .leftBtn{
     float:left;
@@ -1007,6 +1008,7 @@ a.btn-cta {
     border-radius: 50%;
     cursor: pointer;
     font-size: 24px;
+    top: 50%;
   }
 
 }
