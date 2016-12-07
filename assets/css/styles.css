@@ -982,13 +982,31 @@ a.btn-cta {
   }
   .rightBtn{
     float: right;
-    font-size: 20px;
-    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
   }
   .leftBtn{
     float:left;
-    font-size: 20px;
-    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
   }
 
 }
